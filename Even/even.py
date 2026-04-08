@@ -9,7 +9,3 @@ def main():
     print(even)
 if __name__ == "__main__":
     main()
-
-
-
-#
