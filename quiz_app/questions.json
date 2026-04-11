@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the output of print(type(5)) in Python?",
+      "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "int"],
+      "answer": "<class 'int'>"
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["func", "define", "def", "function"],
+      "answer": "def"
+    },
+    {
+      "id": 3,
+      "question": "What does the len() function do?",
+      "options": [
+        "Returns the number of elements in an object",
+        "Adds two numbers",
+        "Converts data type",
+        "Prints output"
+      ],
+      "answer": "Returns the number of elements in an object"
+    },
+    {
+      "id": 4,
+      "question": "Which data type is used to store multiple values in a single variable?",
+      "options": ["int", "str", "list", "float"],
+      "answer": "list"
+    },
+    {
+      "id": 5,
+      "question": "What is the correct way to create a variable in Python?",
+      "options": [
+        "var x = 10",
+        "x = 10",
+        "int x = 10",
+        "let x = 10"
+      ],
+      "answer": "x = 10"
+    },
+    {
+      "id": 6,
+      "question": "What will print(2 ** 3) output?",
+      "options": ["6", "8", "9", "5"],
+      "answer": "8"
+    },
+    {
+      "id": 7,
+      "question": "Which statement is used for decision making in Python?",
+      "options": ["for", "while", "if", "loop"],
+      "answer": "if"
+    },
+    {
+      "id": 8,
+      "question": "What is the output of print('Hello' + 'World')?",
+      "options": [
+        "Hello World",
+        "HelloWorld",
+        "Hello+World",
+        "Error"
+      ],
+      "answer": "HelloWorld"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a mutable data type?",
+      "options": ["tuple", "str", "list", "int"],
+      "answer": "list"
+    },
+    {
+      "id": 10,
+      "question": "What does the input() function return?",
+      "options": ["int", "float", "str", "bool"],
+      "answer": "str"
+    }
+  ]
+}
