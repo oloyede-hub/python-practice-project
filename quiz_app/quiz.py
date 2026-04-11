@@ -1,10 +1,10 @@
 from load_questions import load_questions
 import time
 def parse_question(questions):
-    if not questions:
-        return []
-    else:
-        return questions["questions"]
+    if isinstance(questions, dict):
+        return questions.get("questions", [])
+    elif isinstance(questions, list):
+        return questions
 
 def main():
     """
@@ -14,7 +14,7 @@ def main():
     2. Answer input from the users
         users option
         compare it with the answer field from the question dictionary
-
+        increment the score if the answer is correct
         What is changing:
         Questions
         User answer
@@ -41,7 +41,7 @@ def main():
                 print("🎉 Correct")
                 total_score += 1 
         else:
-            print("🤦‍♂️Wrong Answer")
+            print("🤦Wrong Answer")
 
 
 
