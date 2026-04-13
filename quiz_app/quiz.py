@@ -1,5 +1,10 @@
-from load_questions import load_questions
 import time
+from pathlib import Path
+import sys
+
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
+from utils.file_loader import file_loader
 def parse_question(questions):
     if isinstance(questions, dict):
         return questions.get("questions", [])
@@ -19,7 +24,7 @@ def main():
         Questions
         User answer
     """
-    questions = parse_question(load_questions())
+    questions = parse_question(file_loader("questions.json"))
     total_score = 0
     labels = ["A","B", "C", "D"]
 
